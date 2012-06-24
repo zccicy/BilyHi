@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<EditText android:id="@+id/test_uri1"
+	    android:text="http://devimages.apple.com/iphone/samples/bipbop/gear1/prog_index.m3u8"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+		
+	<EditText android:id="@+id/test_uri"
+	    android:text="http://f.youku.com/player/getFlvPath/sid/00_00/st/flv/fileid/03000201004EA3277F7324019C3C1C4AB6875F-7E04-107C-FDF0-F498849595E2?K=1fdaf08dbea4e49e261bf5f4"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<Button android:id="@+id/test_play"
+        android:text="Play"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>
+

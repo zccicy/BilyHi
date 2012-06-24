@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="dialog_title_list_order">请选择姿势</string>
+ 	<string name="dialog_confirm_positive">大丈夫，萌大奶</string>
+ 	<string name="dialog_confirm_negative">给我最好的视频</string>
+ 	<string name="dialog_title_home_exit">你确认要离开渣渣客户端了吗？</string>
+ 	<string name="dialog_content_home_exit">欢迎去论坛或者作者微博喷客户端哦～\n作者微博：http://weibo.com/zccicy \n美工微博：http://weibo.com/hatreddeath</string>
+    <string name="app_name">比利海林顿的客户端</string>
+    <string name="path_youku_templete"  formatted="false" >http://f.youku.com/player/getFlvPath/sid/%s/st/%s/fileid/%s?K=%s</string>
+ 
+    <string name="go">go</string>
+    <string name="nulltime">--:--:--</string>
+</resources>

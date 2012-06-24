@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<AutoCompleteTextView android:id="@+id/search_content_atv"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Spinner android:id="@+id/search_type" android:layout_weight="1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+		<Spinner android:id="@+id/search_order" android:layout_width="fill_parent"
+			android:layout_weight="1" android:layout_height="wrap_content"></Spinner>
+		<Button android:id="@+id/search_btn" android:layout_width="fill_parent"
+			android:text="搜索" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		
+	</LinearLayout>
+	
+	<TextView android:id="@+id/search_tip" android:layout_width="fill_parent"
+		android:text="基佬，下面是你要的结果" android:layout_height="wrap_content"></TextView>
+	<ListView android:id="@+id/list_search" android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" android:layoutAnimation="@anim/animationlayout" />
+</LinearLayout>

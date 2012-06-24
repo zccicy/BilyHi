@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="20px" android:paddingBottom="20px">
+	<ImageView android:id="@+id/item_comment_cover"
+		android:layout_width="80dip" android:layout_height="60dip" android:scaleType="fitXY"
+		android:layout_alignParentLeft="true"></ImageView>
+	<TextView android:id="@+id/item_comment_name" android:layout_marginLeft="15px" android:background="@drawable/bilibili_list_bg"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold"
+		android:layout_toRightOf="@id/item_comment_cover" />
+	<TextView android:id="@+id/item_comment_content" android:layout_marginLeft="10px" android:background="@drawable/bilibili_list_bg"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px"
+		 android:layout_below="@id/item_comment_cover"
+		 ></TextView>
+
+</RelativeLayout>
+

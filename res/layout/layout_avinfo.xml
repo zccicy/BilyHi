@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:fadingEdge="none"
+		android:scrollbars="none">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<ImageView android:id="@+id/avinfo_cover_iv"
+				android:layout_width="120dip" android:layout_alignParentTop="true"
+				android:layout_centerHorizontal="true" android:layout_height="90dip"
+				android:scaleType="fitXY"></ImageView>
+			<TextView android:layout_width="wrap_content"
+				android:textSize="16sp" android:textStyle="bold"
+				android:layout_below="@id/avinfo_cover_iv"
+				android:layout_centerHorizontal="true" android:layout_height="wrap_content"
+				android:id="@+id/avinfo_title"></TextView>
+			<TableLayout android:layout_width="wrap_content"
+				android:id="@+id/avinfo_brief" android:layout_height="wrap_content"
+				android:stretchColumns="1" android:layout_alignParentLeft="true"
+				android:layout_below="@id/avinfo_title">
+
+				<TableRow>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="作者:"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/avinfo_author"></TextView>
+
+				</TableRow>
+
+				<TableRow>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="发布时间:"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/avinfo_posttime"></TextView>
+
+
+				</TableRow>
+				<TableRow>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="评论数:"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/avinfo_review"></TextView>
+
+				</TableRow>
+				<TableRow>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="再生数:"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/avinfo_playcount"></TextView>
+				</TableRow>
+				<TableRow>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="弹幕数:"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/avinfo_video_review"></TextView>
+
+				</TableRow>
+				<TableRow>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="收藏数:"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/avinfo_favorites"></TextView>
+				</TableRow>
+
+				<TableRow>
+
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="分P数:"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/avinfo_page_count"></TextView>
+
+				</TableRow>
+				<TableRow>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Tag标签:"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/avinfo_tags"></TextView>
+				</TableRow>
+
+				<TableRow>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="视频简介:"></TextView>
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/avinfo_desc"></TextView>
+				</TableRow>
+			</TableLayout>
+			<LinearLayout android:id="@+id/avinfo_pages_area"  
+				android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
+				android:layout_below="@id/avinfo_brief">
+				<Button android:id="@+id/show_comment_btn" android:background="@drawable/bilibili_list_bg"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:text="显示评论" />
+
+			</LinearLayout>
+
+
+
+
+
+
+
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

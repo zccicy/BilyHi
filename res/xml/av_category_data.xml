@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+	<category tid="1" pid="0" tname="动画">
+	</category>
+	<category tid="24" pid="1" tname="MAD·AMV">
+
+	</category>
+	<category tid="25" pid="1" tname="MMD·3D">
+
+	</category>
+	<category tid="26" pid="1" tname="二次元鬼畜">
+
+	</category>
+	<category tid="27" pid="1" tname="期刊·其他">
+	</category>
+	<category tid="3" pid="0" tname="音乐">
+	</category>
+	<category tid="28" pid="3" tname="音乐视频">
+	</category>
+	<category tid="29" pid="3" tname="三次元音乐">
+	</category>
+	<category tid="30" pid="3" tname="V家相关">
+	</category>
+	<category tid="31" pid="3" tname="翻唱">
+	</category>
+	<category tid="4" pid="0" tname="游戏">
+	</category>
+	<category tid="16" pid="4" tname="FLASH游戏">
+	</category>
+	<category tid="17" pid="4" tname="游戏视频">
+	</category>
+	<category tid="18" pid="4" tname="游戏攻略·解说">
+	</category>
+	<category tid="19" pid="4" tname="MUGEN">
+	</category>
+	<category tid="5" pid="0" tname="娱乐">
+	</category>
+	<category tid="20" pid="5" tname="舞蹈">
+	</category>
+	<category tid="21" pid="5" tname="生活娱乐">
+	</category>
+	<category tid="22" pid="5" tname="三次元鬼畜">
+	</category>
+	<category tid="23" pid="5" tname="影视">
+	</category>
+	<category tid="11" pid="0" tname="合辑">
+	</category>
+	<category tid="15" pid="11" tname="三次元合辑">
+	</category>
+	<category tid="32" pid="11" tname="二次元合辑">
+	</category>
+	<category tid="13" pid="0" tname="新番连载">
+	</category>
+	<category tid="33" pid="13" tname="二次元新番">
+	</category>
+	<category tid="34" pid="13" tname="三次元新番">
+	</category>
+
+
+
+</data>
